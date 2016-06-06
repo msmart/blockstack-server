@@ -18,9 +18,7 @@ Learn more by visiting [the Blockstack Website](https://blockstack.org) and chec
 
 The fastest way to get started with blockstack is with pip:
 
-```
-sudo pip install blockstack
-```
+{{ exec default: apt-get update && apt-get install -y python-pip python-dev libssl-dev libffi-dev && pip install blockstack }}
 
 If you encounter any problems during the pip install, see the [detailed installation
 instructions](https://blockstack.org/docs/installation).
@@ -29,9 +27,7 @@ instructions](https://blockstack.org/docs/installation).
 
 First, start the Blockstack server and index the blockchain:
 
-```bash
-$ blockstack-server start
-```
+{{ exec default: blockstack-server start }}
 
 Next, visit the [basic usage docs](https://blockstack.org/docs/basic-usage) and [extended usage docs](https://blockstack.org/docs/basic-usage) to learn how to register names of your own, as well as transfer them and associate data with them.
 
